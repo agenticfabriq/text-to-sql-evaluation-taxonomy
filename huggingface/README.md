@@ -16,7 +16,7 @@ comparison published with the open-source mnemiq engine.
 - Canonical: https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/
 - Source repo: https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy
 - Engine: https://github.com/agenticfabriq/mnemiq · Grader: https://github.com/agenticfabriq/beacon
-- Methodology: https://www.agenticfabriq.com/mnemiq/mnemiq-technical-report.pdf
+- Methodology: https://doi.org/10.5281/zenodo.22806094 (mnemiq technical report, PDF at https://www.agenticfabriq.com/mnemiq/mnemiq-technical-report.pdf)
 
 ## Disclosure
 Scores are first-party results from Agentic Fabriq, which develops mnemiq.

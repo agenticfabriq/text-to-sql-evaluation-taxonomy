@@ -50,7 +50,7 @@ reproduces the headline comparison from the
 [mnemiq launch article](https://www.agenticfabriq.com/blog/mnemiq/launch) in
 machine-readable form, tagged with this taxonomy's grading-rule IDs. **These
 are first-party results published by the maintainer**; methodology is in the
-[technical report](https://www.agenticfabriq.com/mnemiq/mnemiq-technical-report.pdf),
+[technical report](https://doi.org/10.5281/zenodo.22806094 (mnemiq technical report, PDF at https://www.agenticfabriq.com/mnemiq/mnemiq-technical-report.pdf)),
 and the grader is open so anyone can re-run them.
 
 ## How to cite
