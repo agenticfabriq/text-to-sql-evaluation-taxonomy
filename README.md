@@ -1,5 +1,7 @@
 # Text-to-SQL Evaluation Taxonomy
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22806083.svg)](https://doi.org/10.5281/zenodo.22806083)
+
 A shared vocabulary for measuring text-to-SQL and data-agent systems honestly:
 how answers are graded, how systems fail, how often they refuse, and how
 stable they are from run to run.
@@ -9,6 +11,7 @@ on another without getting any better or worse — the grading rule and the
 answer shape changed, not the capability. If you're comparing vendors or
 tuning your own pipeline, you need to know which of those you're looking at.
 
+**DOI:** https://doi.org/10.5281/zenodo.22806083
 **Canonical site:** https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/
 **Maintainer:** [Agentic Fabriq](https://www.agenticfabriq.com/mnemiq), publisher of the open-source [mnemiq](https://github.com/agenticfabriq/mnemiq) engine and the [Beacon](https://github.com/agenticfabriq/beacon) grader
 **Content & data:** CC BY 4.0 · **Code:** Apache-2.0

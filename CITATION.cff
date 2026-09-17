@@ -10,6 +10,11 @@ authors:
 repository-code: "https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy"
 url: "https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.22806084"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22806083"
+    description: "Concept DOI, resolves to the latest version"
 version: "0.1.0"
 date-released: "2026-09-17"
 keywords: [text-to-sql, nl2sql, evaluation, benchmark, refusal, stability, semantic-layer, data-agents]
