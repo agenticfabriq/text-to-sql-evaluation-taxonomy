@@ -1,0 +1,9 @@
+dimension: semantic-context
+id: tsqlet:semantic-context
+question: What did the model know about the schema when it wrote SQL?
+terms:
+  - {id: tsqlet:semantic-context/ddl-only, label: DDL only, definition: CREATE TABLE statements with no descriptions.}
+  - {id: tsqlet:semantic-context/database-comments, label: Database comments, definition: Table and column descriptions stored in the database (for example COMMENT ON).}
+  - {id: tsqlet:semantic-context/generated-descriptions, label: Generated descriptions, definition: Descriptions produced automatically by profiling data or by a model, not reviewed.}
+  - {id: tsqlet:semantic-context/certified-meaning, label: Certified meaning, definition: Business definitions, join paths and value mappings reviewed and approved by someone accountable for the data.}
+  - {id: tsqlet:semantic-context/verified-queries, label: Verified example queries, definition: Hand-curated question and SQL pairs supplied as examples.}

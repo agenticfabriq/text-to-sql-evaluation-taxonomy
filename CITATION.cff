@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this taxonomy or data, please cite the release you used."
+title: "Text-to-SQL Evaluation Taxonomy"
+type: dataset
+authors:
+  - name: "Agentic Fabriq"
+    website: "https://www.agenticfabriq.com/"
+  - family-names: "Xu"
+    given-names: "Paulina"
+repository-code: "https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy"
+url: "https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/"
+license: CC-BY-4.0
+version: "0.1.0"
+date-released: "2026-09-30"
+keywords: [text-to-sql, nl2sql, evaluation, benchmark, refusal, stability, semantic-layer, data-agents]
+references:
+  - type: software
+    title: "mnemiq"
+    repository-code: "https://github.com/agenticfabriq/mnemiq"
+    license: Apache-2.0

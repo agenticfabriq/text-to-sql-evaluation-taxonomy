@@ -1,0 +1,12 @@
+dimension: refusal
+id: tsqlet:refusal
+question: Did the system decline to answer, and was that the right call?
+terms:
+  - {id: tsqlet:refusal/deferral-rate, label: Deferral rate, definition: Share of questions the system declined to answer.}
+  - {id: tsqlet:refusal/correct-refusal, label: Correct refusal, definition: Declined a question that was unanswerable, out of scope or not permitted.}
+  - {id: tsqlet:refusal/over-refusal, label: Over-refusal, definition: Declined a question it could have answered correctly.}
+  - {id: tsqlet:refusal/adversarial-refusal-hold, label: Adversarial refusal hold rate, definition: Share of deliberately unanswerable or unauthorized questions that the system correctly declined.}
+  - id: tsqlet:refusal/calibrated-refusal
+    label: Calibrated refusal
+    definition: The questions a system declines are ones it would more often get wrong if forced to answer.
+    how_to_measure: Compare accuracy of a lower-deferral configuration on the items the higher-deferral configuration declined against its overall accuracy.

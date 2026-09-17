@@ -1,0 +1,9 @@
+dimension: pre-execution-check
+id: tsqlet:check
+question: What was verified by deterministic code before generated SQL read any data?
+terms:
+  - {id: tsqlet:check/shape-check, label: Shape check, definition: Confirms the statement type is allowed, for example read-only SELECT with no DDL or DML.}
+  - {id: tsqlet:check/access-check, label: Access check, definition: Confirms every table and column referenced is permitted for the requesting user and agent.}
+  - {id: tsqlet:check/dialect-check, label: Dialect check, definition: Parses the SQL in the target engine's dialect.}
+  - {id: tsqlet:check/plan-check, label: Plan check, definition: Runs EXPLAIN or equivalent to confirm the query plans and stays within cost limits.}
+  - {id: tsqlet:check/none, label: No checks, definition: Generated SQL is executed directly.}

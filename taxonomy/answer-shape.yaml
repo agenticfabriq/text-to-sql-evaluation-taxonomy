@@ -1,0 +1,12 @@
+dimension: answer-shape
+id: tsqlet:answer-shape
+question: How does the form of a result differ from the reference, independent of whether the facts are right?
+terms:
+  - {id: tsqlet:answer-shape/matching, label: Matching shape, definition: Same columns and row granularity as the reference.}
+  - {id: tsqlet:answer-shape/extra-columns, label: Extra columns, definition: Contains the reference columns plus additional ones.}
+  - {id: tsqlet:answer-shape/column-order, label: Column order differs, definition: Same columns in a different order.}
+  - {id: tsqlet:answer-shape/granularity-mismatch, label: Granularity mismatch, definition: Aggregated where the reference is row-level or the reverse.}
+  - id: tsqlet:answer-shape/right-data-wrong-shape
+    label: Right data, wrong shape
+    definition: Would pass got-the-facts but fail exact-result-match.
+    note: The main reason system rankings flip between BIRD/Spider 1.0 and Spider 2.0.

@@ -1,0 +1,10 @@
+site_name: Text-to-SQL Evaluation Taxonomy
+site_url: https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/
+site_description: A shared vocabulary for measuring text-to-SQL and data-agent systems — grading rules, answer shape, failure modes, refusal and stability.
+repo_url: https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy
+theme:
+  name: material
+  custom_dir: overrides
+nav:
+  - Overview: index.md
+  - FAQ: faq.md

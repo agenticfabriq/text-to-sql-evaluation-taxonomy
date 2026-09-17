@@ -1,0 +1,21 @@
+dimension: grading-rule
+id: tsqlet:grading-rule
+question: When is a text-to-SQL answer counted correct?
+terms:
+  - id: tsqlet:grading-rule/exact-result-match
+    label: Exact result match
+    definition: The returned result set equals the reference result set, including the set of columns; extra or missing columns make it wrong.
+    rewards: Tight answers that return only what was asked.
+    used_by: [BIRD execution accuracy, Spider 1.0 execution accuracy]
+  - id: tsqlet:grading-rule/got-the-facts
+    label: Got the facts
+    definition: Every value in the reference result appears in the returned result; extra columns or context do not make it wrong.
+    rewards: Wide answers that include the needed facts plus context.
+    used_by: [Spider 2.0 evaluation]
+  - id: tsqlet:grading-rule/llm-judged
+    label: LLM-judged
+    definition: A model decides whether the returned answer satisfies the question.
+    caution: Not reproducible across judge models; report the judge and prompt.
+  - id: tsqlet:grading-rule/human-judged
+    label: Human-judged
+    definition: A person decides whether the answer is acceptable for the business question.

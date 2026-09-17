@@ -1,0 +1,9 @@
+dimension: benchmark-corpus
+id: tsqlet:corpus
+question: Which question set produced a number, and what does its headline metric reward?
+terms:
+  - {id: tsqlet:corpus/bird-mini-dev, label: BIRD mini-dev, definition: 500-question public development subset of the BIRD benchmark across 11 databases, headline graded by execution match., headline_rule: tsqlet:grading-rule/exact-result-match, url: "https://bird-bench.github.io/"}
+  - {id: tsqlet:corpus/spider-1-dev, label: Spider 1.0 dev, definition: Public cross-domain development set from Spider 1.0., headline_rule: tsqlet:grading-rule/exact-result-match, url: "https://yale-lily.github.io/spider"}
+  - {id: tsqlet:corpus/spider-2-lite, label: Spider 2.0-lite, definition: Enterprise-style workflow questions over large real-world schemas from Spider 2.0., headline_rule: tsqlet:grading-rule/got-the-facts, url: "https://spider2-sql.github.io/"}
+  - {id: tsqlet:corpus/private-vendor-set, label: Private vendor set, definition: A question set held by a vendor and not published; results cannot be independently reproduced.}
+  - {id: tsqlet:corpus/own-database, label: Your own database, definition: Questions written against the evaluating organization's own schemas and data.}

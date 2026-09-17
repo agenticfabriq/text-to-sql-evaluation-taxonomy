@@ -1,0 +1,10 @@
+dimension: stability
+id: tsqlet:stability
+question: Does the system reach the same verdict when asked the same question again?
+terms:
+  - id: tsqlet:stability/case-flip-rate
+    label: Case-flip rate
+    definition: Share of questions whose graded verdict (correct or incorrect) changes across repeated identical runs.
+    how_to_measure: Run the full set at least three times with identical configuration; count items not graded identically every time.
+  - {id: tsqlet:stability/mean-of-runs, label: Mean of runs, definition: Accuracy reported as the mean over repeated runs rather than a single best run.}
+  - {id: tsqlet:stability/per-schema-spread, label: Per-schema spread, definition: Difference between best and worst accuracy across schemas in a corpus.}

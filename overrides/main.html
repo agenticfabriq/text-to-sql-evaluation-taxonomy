@@ -1,0 +1,23 @@
+    {% extends "base.html" %}
+    {% block extrahead %}
+      <script type="application/ld+json">
+      {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": "https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/#termset",
+  "name": "Text-to-SQL Evaluation Taxonomy",
+  "description": "A shared vocabulary for measuring text-to-SQL and data-agent systems: grading rules, answer shape, failure modes, refusal, stability, pre-execution checks, semantic context and benchmark corpora. 8 dimensions, 40 terms, plus a published comparison dataset.",
+  "url": "https://agenticfabriq.github.io/text-to-sql-evaluation-taxonomy/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.agenticfabriq.com/#organization",
+    "name": "Agentic Fabriq",
+    "url": "https://www.agenticfabriq.com/"
+  },
+  "sameAs": [
+    "https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy"
+  ]
+}
+      </script>
+    {% endblock %}

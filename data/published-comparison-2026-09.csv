@@ -1,0 +1,10 @@
+corpus_id,system,score_pct,grading_rule_id,source_url,claim_type,notes
+tsqlet:corpus/bird-mini-dev,mnemiq,64.9,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,"Confirm grading rule and run-averaging against the article before publishing"
+tsqlet:corpus/bird-mini-dev,Databricks Genie,53.1,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/bird-mini-dev,Snowflake Cortex Analyst,48.9,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-1-dev,mnemiq,79.5,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-1-dev,Databricks Genie,77.5,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-1-dev,Snowflake Cortex Analyst,77.1,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-2-lite,mnemiq,59.8,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-2-lite,Databricks Genie,45.5,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,
+tsqlet:corpus/spider-2-lite,Snowflake Cortex Analyst,24.2,CONFIRM,https://www.agenticfabriq.com/blog/mnemiq/launch,first-party,

@@ -1,0 +1,15 @@
+dimension: failure-mode
+id: tsqlet:failure-mode
+question: Why was a wrong answer wrong?
+terms:
+  - {id: tsqlet:failure-mode/schema-linking, label: Schema linking error, definition: Used the wrong table or column for a concept in the question.}
+  - {id: tsqlet:failure-mode/join-path, label: Wrong join path, definition: Joined correct tables through the wrong keys or an unintended path, often duplicating or dropping rows.}
+  - {id: tsqlet:failure-mode/filter-semantics, label: Filter semantics, definition: Misread a business term's meaning, such as what counts as an active customer.}
+  - {id: tsqlet:failure-mode/value-grounding, label: Value grounding, definition: Used a literal that doesn't match how values are stored, such as case, codes or date formats.}
+  - {id: tsqlet:failure-mode/aggregation, label: Aggregation error, definition: Wrong aggregate function, grouping or distinctness.}
+  - {id: tsqlet:failure-mode/dialect, label: Dialect error, definition: SQL valid in one engine but invalid or different in the target engine.}
+  - id: tsqlet:failure-mode/plausible-wrong-number
+    label: Plausible wrong number
+    definition: Executes cleanly and returns a believable value that is incorrect.
+    note: The most dangerous failure because nothing signals it; the case refusal and evidence traces exist for.
+  - {id: tsqlet:failure-mode/reference-error, label: Reference error, definition: The benchmark's gold SQL or answer is itself wrong.}
