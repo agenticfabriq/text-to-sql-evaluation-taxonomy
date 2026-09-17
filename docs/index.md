@@ -19,14 +19,14 @@ tuning your own pipeline, you need to know which of those you're looking at.
 
 | Dimension | Question | File |
 |---|---|---|
-| Grading rule | When is an answer counted correct? | [`taxonomy/grading-rule.yaml`](taxonomy/grading-rule.yaml) |
-| Answer shape | How does the result's form differ from the reference? | [`taxonomy/answer-shape.yaml`](taxonomy/answer-shape.yaml) |
-| Failure mode | Why was a wrong answer wrong? | [`taxonomy/failure-mode.yaml`](taxonomy/failure-mode.yaml) |
-| Refusal | Did the system decline, and was that right? | [`taxonomy/refusal.yaml`](taxonomy/refusal.yaml) |
-| Stability | Does the system give the same verdict on repeated runs? | [`taxonomy/stability.yaml`](taxonomy/stability.yaml) |
-| Pre-execution check | What was verified before SQL touched data? | [`taxonomy/pre-execution-check.yaml`](taxonomy/pre-execution-check.yaml) |
-| Semantic context | What context did the model get about the schema? | [`taxonomy/semantic-context.yaml`](taxonomy/semantic-context.yaml) |
-| Benchmark corpus | Which public question set, and what does it reward? | [`taxonomy/benchmark-corpus.yaml`](taxonomy/benchmark-corpus.yaml) |
+| Grading rule | When is an answer counted correct? | [`taxonomy/grading-rule.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/grading-rule.yaml) |
+| Answer shape | How does the result's form differ from the reference? | [`taxonomy/answer-shape.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/answer-shape.yaml) |
+| Failure mode | Why was a wrong answer wrong? | [`taxonomy/failure-mode.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/failure-mode.yaml) |
+| Refusal | Did the system decline, and was that right? | [`taxonomy/refusal.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/refusal.yaml) |
+| Stability | Does the system give the same verdict on repeated runs? | [`taxonomy/stability.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/stability.yaml) |
+| Pre-execution check | What was verified before SQL touched data? | [`taxonomy/pre-execution-check.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/pre-execution-check.yaml) |
+| Semantic context | What context did the model get about the schema? | [`taxonomy/semantic-context.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/semantic-context.yaml) |
+| Benchmark corpus | Which public question set, and what does it reward? | [`taxonomy/benchmark-corpus.yaml`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/taxonomy/benchmark-corpus.yaml) |
 
 ## Five things this vocabulary makes visible
 
@@ -42,7 +42,7 @@ tuning your own pipeline, you need to know which of those you're looking at.
 
 ## Data
 
-[`data/published-comparison-2026-09.csv`](data/published-comparison-2026-09.csv)
+[`data/published-comparison-2026-09.csv`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/data/published-comparison-2026-09.csv)
 reproduces the headline comparison from the
 [mnemiq launch article](https://www.agenticfabriq.com/blog/mnemiq/launch) in
 machine-readable form, tagged with this taxonomy's grading-rule IDs. **These
@@ -52,7 +52,7 @@ and the grader is open so anyone can re-run them.
 
 ## How to cite
 
-See [`CITATION.cff`](CITATION.cff).
+See [`CITATION.cff`](https://github.com/agenticfabriq/text-to-sql-evaluation-taxonomy/blob/main/CITATION.cff).
 
 ## About the maintainer
 
